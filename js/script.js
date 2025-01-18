@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
           .replace(/[^a-z0-9\-]/g, ""); // Remove caracteres especiais, exceto "-"
       }
   
-      const fileName = `dados/animais/${formatarNomeArquivo(nomeAnimal)}.json`;
+      const fileName = `robinsongarcia.github.io/animais/${formatarNomeArquivo(nomeAnimal)}.json`;
   
       fetch(fileName)
         .then((response) => {
